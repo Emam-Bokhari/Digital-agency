@@ -30,6 +30,7 @@
   align-items: center;
 }
 .menus {
+  list-style: none;
   display: flex;
   gap: 20px;
   font-size: 20px;
@@ -166,38 +167,76 @@
   color: black;
 }
 /* Appointment section start */
-.appointment-section{
-    width: 75%;
-    padding: 15px;
-    background-color: rgb(245, 44, 44);
-    display: flex;
-    justify-content: center;
-    align-items:center;
-    margin: auto;
-    border-radius: 15px;
-    margin-top:-80px;
-    color: white;
+.appointment-section {
+  width: 75%;
+  padding: 15px;
+  background-color: rgb(245, 44, 44);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  border-radius: 15px;
+  margin-top: -80px;
+  color: white;
 }
-.call-box{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 10px;
-    border-right: 2px solid gray;
+.call-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  border-right: 2px solid gray;
 }
-.appointment-logo{
-    width:100px;
-    padding: 15px;
+.appointment-logo {
+  width: 100px;
+  padding: 15px;
 }
-.apointment-descript{
-    padding: 10px;
-    text-align: justify;
+.apointment-descript {
+  padding: 10px;
+  text-align: justify;
 }
-.appointment-button{
-    padding: 10px;
+.appointment-button {
+  padding: 10px;
 }
-.appointment-button button{
-    padding: 15px 35px;
-    border-radius:25px;
-    border: none;
+.appointment-button button {
+  padding: 15px 35px;
+  border-radius: 25px;
+  border: none;
+}
+/* Blog section start */
+.blog-container h1 {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 44px;
+}
+.blog-container p {
+  margin-top: 16px;
+  text-align: center;
+  line-height: 1.3;
+  font-size: 22px;
+}
+.blog-cards {
+  width: 75%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+.card {
+  margin-top: 60px;
+  width: 340px;
+  height: 420px;
+  background: white;
+  box-shadow: 4px 4px 8px 2px gray;
+}
+.card img {
+  width: 100%;
+}
+.card h3 {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.card p {
+  text-align: left;
+  font-size: 16px;
+  margin-left: 20px;
 }
