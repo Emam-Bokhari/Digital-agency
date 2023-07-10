@@ -223,6 +223,7 @@
 }
 .card {
   margin-top: 60px;
+  margin-bottom: 100px;
   width: 340px;
   height: 420px;
   background: white;
@@ -239,4 +240,56 @@
   text-align: left;
   font-size: 16px;
   margin-left: 20px;
+}
+/* Start footer design */
+footer {
+  background-image: url("./asset/image/footer-bg.png"),
+    linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.9));
+  background-blend-mode: overlay;
+  background-position: center;
+}
+.footer-container {
+  padding: 200px;
+  display: flex;
+  justify-content: space-around;
+  color: white;
+  list-style: none;
+}
+.website-short-desc p {
+  font-size: 14px;
+  line-height: 1.5;
+  margin-top: 10px;
+}
+.social-icon i {
+  font-size: 22px;
+  margin-right: 20px;
+  margin-top: 18px;
+}
+.useful-links a {
+  color: white;
+  font-size: 16px;
+  line-height: 1.8;
+}
+.link-heading {
+  margin-bottom: 20px;
+}
+.supports-links a {
+  color: white;
+  font-size: 16px;
+  line-height: 1.8;
+}
+.contact-information li {
+  font-size: 16px;
+  line-height: 1.8;
+}
+.copyright {
+  width: 70%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-top: 2px solid gray;
+  color: white;
+  font-size: 14px;
 }
